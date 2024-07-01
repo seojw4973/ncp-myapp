@@ -28,6 +28,10 @@ task appNpmInstall(type: NpmTask) {
   args = ["install"]
 }
 
+processResources {
+  dependsOn "appNpmInstall"
+}
+
 group = 'bitcamp'
 version = '0.0.1-SNAPSHOT'
 
