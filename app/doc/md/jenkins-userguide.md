@@ -257,7 +257,7 @@ root@springboot-svr:~# vi .ssh/authorized_keys
       - 추가 버튼 클릭
       - SSH Servers
         - Name: 임의의서버 이름
-        - Hostname: 스프링부트서버의 IP 주소
+        - Hostname: 스프링부트서버의 IP 주소(서버 이름)
         - Username: 사용자 아이디
         - `Test Configuration` 버튼 클릭
           - `Success` OK!
